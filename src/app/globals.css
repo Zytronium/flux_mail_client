@@ -94,3 +94,35 @@ body {
 .animate-float {
   animation: float 20s linear infinite;
 }
+
+/* Dark scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(10, 10, 10, 0.8);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 242, 255, 0.4);
+  border-radius: 4px;
+  border: 1px solid rgba(0, 242, 255, 0.2);
+  min-height: 40px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 242, 255, 0.6);
+  box-shadow: 0 0 8px rgba(0, 242, 255, 0.5);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 242, 255, 0.8);
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

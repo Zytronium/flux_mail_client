@@ -259,7 +259,7 @@ export default function Home() {
   return (
     <main className="flex h-screen w-screen text-foreground overflow-hidden font-mono selection:bg-neon-blue selection:text-black">
       {/* Sidebar */}
-      <nav className="w-64 glass-panel border-r border-white/10 flex flex-col items-center py-8 z-20">
+      <nav className="w-64 glass-panel border-r border-white/10 flex flex-col items-center overflow-y-auto py-8 z-20">
         <div className="mb-12 relative">
             <motion.div 
                 animate={{ rotate: 360 }}
