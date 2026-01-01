@@ -1,6 +1,11 @@
 {
-  "name": "flux_mail_2",
-  "version": "0.1.0",
+  "name": "flux_mail_client",
+  "version": "1.0.0",
+  "description": "A futuristic cyberpunk email client",
+  "author": {
+    "name": "Zytronium",
+    "email": "zytronium@zytronium.dev"
+  },
   "private": true,
   "main": "electron/main.js",
   "scripts": {
@@ -42,15 +47,14 @@
     "wait-on": "^9.0.3"
   },
   "build": {
-    "appId": "com.fluxmail.app",
+    "appId": "dev.zytronium.fluxmail",
     "productName": "FluxMail",
     "directories": {
       "output": "dist"
     },
     "files": [
       "electron/**/*",
-      ".next/**/*",
-      "public/**/*",
+      "out/**/*",
       "node_modules/**/*",
       "package.json"
     ],
