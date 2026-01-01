@@ -38,7 +38,7 @@
 ### Clone & Install
 
 ```bash
-git clone https://github.com/yourusername/flux_mail_client.git
+git clone https://github.com/zytronium/flux_mail_client.git
 cd flux_mail_client
 npm install
 ```
@@ -205,7 +205,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 **Zytronium** - zytronium@zytronium.dev
 
-Project Link: [https://github.com/zytronium/flux_mail_client](https://github.com/yourusername/flux_mail_client)
+Project Link: [https://github.com/zytronium/flux_mail_client](https://github.com/zytronium/flux_mail_client)
 
 ### Notice:
 This email client does **NOT** encrypt mail. The displayed text in the bottom-left of the app and top of this readme claiming encryption are **purely decorational**.
